@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Dancing+Script&family=Pacifico&family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" media="screen" />
+    <title>Gerador de senhas</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="card">
+        <div class="titulo">Gerador de Senhas</div>
+        <div class="tamanho">
+          <div>Tamanho</div>
+          <input type="number" value="8" id="tamanho-senha" />
+        </div>
+        <div class="tipos-caracteres">
+          <div>Outros Caracteres</div>
+          <div class="opcoes-caracteres">
+            <button
+              id="opcao-numeral"
+              class="button-opcao"
+            >
+              Numeral
+            </button>
+            <button
+              id="opcao-maiusculas"
+              class="button-opcao"
+            >
+              Maiúsculas
+            </button>
+            <button
+              id="opcao-minusculas"
+              class="button-opcao"
+            >
+              Minúsculas
+            </button>
+            <button id="opcao-simbolos" class="button-opcao">Simbolos</button>
+          </div>
+        </div>
+        <div>
+            <input type="text" id="senha-gerada">
+        </div>
+        <div class="campo-opcoes-gerar-copiar">
+            <button id="gerar-senha" class="botoes-gerar-copiar">Gerar</button>
+            <button id="copiar-senha" class="botoes-gerar-copiar">Copiar</button>
+        </div>
+        <div>
+            <img src="./public/montanhas.png" alt="logo-empresa" class="tamanho-logo">
+        </div>
+        <div class="footer">
+            <span>Mountain Strong Passwords</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
