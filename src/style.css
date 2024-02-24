@@ -76,6 +76,7 @@
     }
     
     .button-opcao {
+        color: black;
         padding: 5px 15px;
         width: 100px;
         border-radius: 10PX;
@@ -104,6 +105,7 @@
     }
     
     .botoes-gerar-copiar {
+        color: black;
         padding: 8px 4px;
         width: 100px;
         background-color: rgba(0, 0, 0, 0.1);
@@ -200,6 +202,7 @@
     }
     
     .button-opcao {
+        color: black;
         padding: 10px 15px;
         width: 300px;
         border-radius: 10PX;
@@ -229,6 +232,7 @@
     }
     
     .botoes-gerar-copiar {
+        color: black;
         padding: 12px 8px;
         width: 100px;
         background-color: rgba(0, 0, 0, 0.1);
@@ -324,6 +328,7 @@
     }
     
     .button-opcao {
+        color: black;
         padding: 7px 18px;
         border-radius: 0px;
         background-color: rgba(0, 0, 0, 0.1);
@@ -370,6 +375,7 @@
     }
     
     .botoes-gerar-copiar {
+        color: black;
         padding: 10px 30px;
         background-color: rgba(0, 0, 0, 0.1);
         border: 1px rgba(0, 0, 0, 0.3) solid;
@@ -463,6 +469,7 @@
     }
     
     .button-opcao {
+        color: black;
         padding: 7px 19px;
         border-radius: 0px;
         background-color: rgba(0, 0, 0, 0.1);
@@ -509,6 +516,7 @@
     }
     
     .botoes-gerar-copiar {
+        color: black;
         padding: 10px 30px;
         background-color: rgba(0, 0, 0, 0.1);
         border: 1px rgba(0, 0, 0, 0.3) solid;
