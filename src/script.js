@@ -5,6 +5,7 @@ const opcaoMaiusculas = document.getElementById('opcao-maiusculas');
 const opcaoMinusculas = document.getElementById('opcao-minusculas');
 const opcaoSimbolos = document.getElementById('opcao-simbolos');
 const btnGerarSenha = document.getElementById('gerar-senha');
+const btnCopiarSenha = document.getElementById('copiar-senha');
 
 const numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const simbolos = ['$', '@', '%', '#', '&', '*', '!', '(', ')', '+', '=', '-'];
@@ -90,4 +91,14 @@ btnGerarSenha.addEventListener('click', () => {
         opcaoNumeral.checked,
         opcaoSimbolos.checked
     );
+
+function copiarSenha() {
+    let senhaCopiada = document.getElementById('senha-gerada');
+    senhaCopiada.select();
+    senhaCopiada.setSelectionRange(0, 99999);
+
+    navigator.clipboard.writeText(senhaCopiada.value);
+}
+
+btnCopiarSenha.addEventListener('click', copiarSenha);
 })
